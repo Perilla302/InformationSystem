@@ -15,6 +15,7 @@
 		B6BD652E1BC84791002CA5B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6BD652C1BC84791002CA5B7 /* LaunchScreen.storyboard */; };
 		B6BD65391BC84791002CA5B7 /* InformationSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD65381BC84791002CA5B7 /* InformationSystemTests.m */; };
 		B6BD65441BC84791002CA5B7 /* InformationSystemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD65431BC84791002CA5B7 /* InformationSystemUITests.m */; };
+		B6BD65531BC84C16002CA5B7 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD65521BC84C16002CA5B7 /* InfoViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B6BD653F1BC84791002CA5B7 /* InformationSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InformationSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6BD65431BC84791002CA5B7 /* InformationSystemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InformationSystemUITests.m; sourceTree = "<group>"; };
 		B6BD65451BC84791002CA5B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6BD65511BC84C16002CA5B7 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		B6BD65521BC84C16002CA5B7 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				B6BD65241BC84791002CA5B7 /* ViewController.h */,
 				B6BD65251BC84791002CA5B7 /* ViewController.m */,
 				B6BD65271BC84791002CA5B7 /* Main.storyboard */,
+				B6BD65511BC84C16002CA5B7 /* InfoViewController.h */,
+				B6BD65521BC84C16002CA5B7 /* InfoViewController.m */,
 				B6BD652A1BC84791002CA5B7 /* Assets.xcassets */,
 				B6BD652C1BC84791002CA5B7 /* LaunchScreen.storyboard */,
 				B6BD652F1BC84791002CA5B7 /* Info.plist */,
@@ -272,6 +277,7 @@
 			files = (
 				B6BD65261BC84791002CA5B7 /* ViewController.m in Sources */,
 				B6BD65231BC84791002CA5B7 /* AppDelegate.m in Sources */,
+				B6BD65531BC84C16002CA5B7 /* InfoViewController.m in Sources */,
 				B6BD65201BC84791002CA5B7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
